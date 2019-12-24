@@ -19,6 +19,7 @@
       <module name="gt-manage" target="1.8" />
       <module name="gt-sso" target="1.8" />
       <module name="gt-web" target="1.8" />
+      <module name="gteam" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
