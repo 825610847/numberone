@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gt-cart" />
+        <module name="gt-common" />
+        <module name="gt-manage" />
+        <module name="gt-sso" />
+        <module name="gt-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gt-cart" target="1.8" />
+      <module name="gt-common" target="1.8" />
+      <module name="gt-manage" target="1.8" />
+      <module name="gt-sso" target="1.8" />
+      <module name="gt-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gt-cart" options="-parameters" />
+      <module name="gt-common" options="-parameters" />
+      <module name="gt-manage" options="-parameters" />
+      <module name="gt-sso" options="-parameters" />
+      <module name="gt-web" options="-parameters" />
+    </option>
+  </component>
+</project>
