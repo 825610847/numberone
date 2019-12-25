@@ -1,0 +1,72 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" lang="zh-CN" class="translated-ltr">
+<head th:include="index.html :: head">
+    <link rel="stylesheet" href="http://www.gt.com/IdeaUI/lib/layer/skin/default/layer.css?v=3.0.11110" id="layuicss-skinlayercss"><link type="text/css" rel="stylesheet" href="http://www.gt.com/IdeaUI/lib/laypage//skin/laypage.css" id="laypagecss"></head>
+<body >
+<div class="mm_ctr">
+    <div th:include="index :: top">
+
+    </div>
+    <div id="main">
+        <div class="m_ctr">
+            <div class="ej_tctr">当前位置：<a href="/">首页</a> &gt; 我的资料</div>
+            <div class="m_ctr1">
+                <div class="ej_left">
+                    <div class="ej_nav1"><i class="iconfont"></i> <span>会员中心</span></div>
+                    <div class="ej_nav21"><a href="/page/center">我的资料</a></div>
+                    <div class="ej_nav21"><a href="/page/myorder">我的订单</a></div>
+                    <div class="ej_nav21"><a href="/page/cart">我的购物车</a></div>
+                    <div class="ej_nav21"><a href="/page/mygood">我的发布</a></div>
+                    <div class="ej_nav22"><a href="/page/addr">收货地址</a></div>
+                </div>
+                <div class="ej_right">
+                    <div class="ej_rt3">编辑收货地址</div>
+                    <div class="m_ctr">
+                        <form id="myform" action="../../mould/user/?c=addr&amp;a=edit">
+                            <div class="my_ctr">
+                                <div class="user_cell">
+                                    <div class="user_t1">姓名</div>
+                                    <div class="user_t2"><input name="m_name" type="text" placeholder="收货人" value="ys" nullmsg="请输入姓名!" datatype="*"></div>
+                                </div>
+                                <div class="user_cell">
+                                    <div class="user_t1">电话</div>
+                                    <div class="user_t2"><input name="m_tel" type="text" placeholder="联系电话" value="17713538022" nullmsg="请输入电话!" datatype="m"></div>
+                                </div>
+                                <div class="user_cell">
+                                    <div class="user_t1">城市</div>
+                                    <div class="user_t2" style="width:auto;">
+                                        <select name="m_provance" id="sel-provance" style="padding:0;" onchange="selectCity();"><option value="请选择">请选择</option><option value="北京市">北京市</option><option value="天津市">天津市</option><option value="河北省">河北省</option><option value="山西省">山西省</option><option value="内蒙古区">内蒙古区</option><option value="辽宁省">辽宁省</option><option value="吉林省">吉林省</option><option value="黑龙江省">黑龙江省</option><option value="上海市">上海市</option><option value="江苏省">江苏省</option><option value="浙江省">浙江省</option><option value="安徽省">安徽省</option><option value="福建省">福建省</option><option value="江西省">江西省</option><option value="山东省">山东省</option><option value="河南省">河南省</option><option value="湖北省">湖北省</option><option value="湖南省">湖南省</option><option value="广东省">广东省</option><option value="广西区">广西区</option><option value="海南省">海南省</option><option value="重庆市">重庆市</option><option value="四川省">四川省</option><option value="贵州省">贵州省</option><option value="云南省">云南省</option><option value="西藏区">西藏区</option><option value="陕西省">陕西省</option><option value="甘肃省">甘肃省</option><option value="青海省">青海省</option><option value="宁夏区">宁夏区</option><option value="新疆区">新疆区</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="user_t2" style="width:auto; margin:0 10px;">
+                                        <select name="m_city" id="sel-city" style="padding:0;" onchange="selectcounty();"><option value="请选择">请选择</option><option value="成都市">成都市</option><option value="自贡市">自贡市</option><option value="攀枝花市">攀枝花市</option><option value="泸州市">泸州市</option><option value="德阳市">德阳市</option><option value="绵阳市">绵阳市</option><option value="广元市">广元市</option><option value="遂宁市">遂宁市</option><option value="内江市">内江市</option><option value="乐山市">乐山市</option><option value="南充市">南充市</option><option value="眉山市">眉山市</option><option value="宜宾市">宜宾市</option><option value="广安市">广安市</option><option value="达州市">达州市</option><option value="雅安市">雅安市</option><option value="巴中市">巴中市</option><option value="资阳市">资阳市</option><option value="阿坝自治州">阿坝自治州</option><option value="甘孜自治州">甘孜自治州</option><option value="凉山自治州">凉山自治州</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="user_t2" style="width:auto;">
+                                        <select name="m_area" id="sel-area" style="padding:0;"><option value="请选择">请选择</option><option value="市辖区">市辖区</option><option value="市中区">市中区</option><option value="东兴区">东兴区</option><option value="威远县">威远县</option><option value="资中县">资中县</option><option value="隆昌县">隆昌县</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="user_cell bb0">
+                                    <div class="user_t1">地址</div>
+                                    <div class="user_t2"><input name="m_addr" type="text" placeholder="详细地址" value="12312312" nullmsg="请输入详细地址!" datatype="*"></div>
+                                </div>
+                                <input name="id" type="hidden" value="198">
+                            </div>
+                            <div class="m_ctr"><input class="btn" style="margin-left:52px;width:300px;line-height:40px;" onclick="" type="submit" value="确认修改"></div>
+                        </form>
+                        <script src="/IdeaUI/lib/city/cascade.js" type="text/javascript"></script>
+                        <script>cascdeInit('/IdeaUI/lib/city/','四川省','内江市','隆昌县');</script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div th:include="index :: foot"></div>
+</div>
+</body>
+</html>

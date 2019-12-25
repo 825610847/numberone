@@ -1,6 +1,18 @@
 server:
-  port: 8092    
+  port: 8090
+  servlet:
+    context-path: /
+  tomcat:
+    max-threads: 1000
+
 spring:     #定义springmvc视图解析器
+  thymeleaf:
+    prefix: classpath:/templates/views/
+    suffix: .html
+    mode: HTML
+    encoding: UTF-8
+    cache: false
+
 
 dubbo:
   scan:
