@@ -1,0 +1,35 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" lang="zh-CN" class="translated-ltr">
+<head th:include="index.html :: head">
+    <link rel="stylesheet" href="http://www.gt.com/IdeaUI/lib/layer/skin/default/layer.css?v=3.0.11110" id="layuicss-skinlayercss"><link type="text/css" rel="stylesheet" href="http://www.gt.com/IdeaUI/lib/laypage//skin/laypage.css" id="laypagecss"></head>
+<body >
+<div class="mm_ctr">
+    <div th:include="index :: top">
+
+    </div>
+    <div id="main">
+        <div class="m_ctr">
+            <div class="ej_tctr">当前位置：<a href="/">首页</a> &gt; 我的资料</div>
+            <div class="m_ctr1">
+                <div class="ej_left">
+                    <div class="ej_nav1"><i class="iconfont"></i> <span>会员中心</span></div>
+                    <div class="ej_nav21"><a href="/page/center">我的资料</a></div>
+                    <div class="ej_nav21"><a href="/page/myorder">我的订单</a></div>
+                    <div class="ej_nav22"><a href="/page/cart">我的购物车</a></div>
+                    <div class="ej_nav21"><a href="/page/mygood">我的发布</a></div>
+                    <div class="ej_nav21"><a href="/page/addr">收货地址</a></div>
+                </div>
+                <div class="ej_right">
+                    <div class="m_ctr">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div th:include="index :: foot"></div>
+    <script type="text/javascript" src="/IdeaUI/lib/layer/2.2/layer.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/template/skin2/pc/js/idea.base.js" charset="utf-8"></script>
+</div>
+</body>
+</html>
