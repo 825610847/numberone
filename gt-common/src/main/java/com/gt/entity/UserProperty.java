@@ -32,4 +32,6 @@ public class UserProperty extends BaseEntity{
     private Double userWallet;
     /**用户状态*/
     private Integer userStatus;
+    /**用户密码*/
+    private String passWord;
 }
