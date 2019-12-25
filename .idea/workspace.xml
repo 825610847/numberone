@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc8239f8-1d4c-4001-a046-1e7bf8097b9f" name="Default Changelist" comment="" />
+    <list default="true" id="bc8239f8-1d4c-4001-a046-1e7bf8097b9f" name="Default Changelist" comment="地址功能 增删改">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserAddr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/service/DoubboAddrService11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/mapper/UserAddrMapper11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/service/UserAddrServiceImpl11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/mybatis.mappers/UserAddrMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/controller/UserAddrController11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/test/com/gt/test/AddrTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/gt_manage_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/gt_manage_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/ConsoleInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/ConsoleInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/GameInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/GameInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/GoodProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/GoodProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/TypeLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/TypeLabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserBusiness.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserBusiness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserFavourite.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserFavourite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-manage/gt-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/gt-manage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-manage/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-sso/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-sso/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-web/gt-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-web/gt-web.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
