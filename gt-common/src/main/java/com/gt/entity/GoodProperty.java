@@ -1,8 +1,11 @@
 package com.gt.entity;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
 
 /**
  *商品属性
@@ -11,8 +14,10 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Accessors(chain=true)
 public class GoodProperty extends BaseEntity {
     /**商品ID*/
+    @TableId(type= IdType.AUTO)
     private Long goodId;
     /**商品类型ID flase:游戏 true:主机*/
     private boolean goodTypeId;
@@ -40,4 +45,8 @@ public class GoodProperty extends BaseEntity {
     private Integer goodSoldCount;
     /**商品用户评价*/
     private String goodCredit;
+    /**客人对商品的描述*/
+    private String goodRemark;
+    /**官方描述*/
+    private String goodLabel;
 }
