@@ -19,3 +19,15 @@ mybatis-plus:
 logging:
   level: 
     com.jt.mapper: debug
+
+#SpringBoot整合dubbo
+dubbo:
+  scan:
+    basePackages: com.gt    #扫描dubbo的注解
+  application:
+    name: provider-user     #定义服务名称
+  registry:                 #dubbo链接zookeeper
+    address: zookeeper://176.201.111.21:2181?backup=176.201.111.21:2182,176.201.111.21:2183
+  protocol:                 #协议
+    name: dubbo             #dubbo协议
+    port: 20885             #具体服务端口号 不能重复

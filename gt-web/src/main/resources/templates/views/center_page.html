@@ -1,0 +1,102 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" lang="zh-CN" class="translated-ltr">
+<head th:include="index.html :: head">
+    <link rel="stylesheet" href="http://www.gt.com/IdeaUI/lib/layer/skin/default/layer.css?v=3.0.11110" id="layuicss-skinlayercss"><link type="text/css" rel="stylesheet" href="http://www.gt.com/IdeaUI/lib/laypage//skin/laypage.css" id="laypagecss"></head>
+<body >
+<div class="mm_ctr">
+<div th:include="index :: top">
+
+</div>
+<div id="main">
+    <div class="m_ctr">
+        <div class="ej_tctr">当前位置：<a href="/">首页</a> &gt; 我的资料</div>
+        <div class="m_ctr1">
+            <div class="ej_left">
+                <div class="ej_nav1"><i class="iconfont"></i> <span>会员中心</span></div>
+                <div class="ej_nav22"><a href="/page/center">我的资料</a></div>
+                <div class="ej_nav21"><a href="/page/myorder">我的订单</a></div>
+                <div class="ej_nav21"><a href="/page/cart">我的购物车</a></div>
+                <div class="ej_nav21"><a href="/page/mygood">我的发布</a></div>
+                <div class="ej_nav21"><a href="/page/addr">收货地址</a></div>
+            </div>
+            <div class="ej_right">
+                <div class="ej_rt3">我的资料</div>
+                <div class="m_ctr">
+                    <div class="user_pic"><img src="/Upload/Pic/tx.jpg" width="120" height="120"></div>
+                    <div class="user_ctr">
+                        <form id="myform" action="../../mould/user/?c=edit">
+                            <div class="user_cell">
+                                <div class="user_t1">用户</div>
+                                <div class="user_t2"><input type="text" name="m_uid" datatype="*" nullmsg="请输入用户名!" value="cursir"></div>
+                            </div>
+                            <div class="user_cell">
+                                <div class="user_t1">密码</div>
+                                <div class="user_t2"><input type="password" name="m_pwd" value="" placeholder="不改请不填写"></div>
+                            </div>
+                            <div class="user_cell">
+                                <div class="user_t1">电话</div>
+                                <div class="user_t2"><input type="text" name="m_tel" datatype="m" nullmsg="请输入手机号!" value=""></div>
+                            </div>
+                            <div class="user_cell">
+                                <div class="user_t1">邮箱</div>
+                                <div class="user_t2"><input type="text" name="m_email" datatype="e" nullmsg="请输入邮箱!" value=""></div>
+                            </div>
+                            <div class="user_cell">
+                                <div class="user_t1">提现</div>
+                                <div class="user_t2" style="width:160px;">
+                                    <select name="m_paytype" id="m_paytype" onchange="selectPaytype(this.options[this.selectedIndex].value)">
+                                        <option value="0" selected="">银行卡</option>
+                                        <option value="1">支付宝</option>
+                                        <option value="2">微信号</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="user_cell" id="t_bank">
+                                <div class="user_t1">银行</div>
+                                <div class="user_t2" style="width:160px;">
+                                    <select name="m_bank">
+                                        <option value="工商银行">工商银行</option>
+                                        <option value="建设银行">建设银行</option>
+                                        <option value="中国银行">中国银行</option>
+                                        <option value="农业银行">农业银行</option>
+                                        <option value="邮政储蓄">邮政储蓄</option>
+                                        <option value="招商银行">招商银行</option>
+                                        <option value="交通银行">交通银行</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="user_cell" id="t_name">
+                                <div class="user_t1">姓名</div>
+                                <div class="user_t2"><input type="text" name="m_bname" id="m_bname" value=""></div>
+                            </div>
+                            <div class="user_cell bb0">
+                                <div class="user_t1">账号</div>
+                                <div class="user_t2"><input type="text" name="m_zh" datatype="*" nullmsg="请输入账号!" value=""></div>
+                            </div>
+                            <input type="submit" class="btn" value="确认提交" style="margin-left:51px;width:300px;">
+                        </form>
+                    </div>
+                </div>
+                <script language="javascript">
+                    function selectPaytype(id){
+                        if (id==0){
+                            $("#t_bank").show();
+                            $("#t_name").show();
+                        }
+                        else {
+                            $("#t_bank").hide();
+                            $("#t_name").hide();
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+<div th:include="index :: foot"></div>
+    <script type="text/javascript" src="/IdeaUI/lib/layer/2.2/layer.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/template/skin2/pc/js/idea.base.js" charset="utf-8"></script>
+</div>
+</body>
+</html>

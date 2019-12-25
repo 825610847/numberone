@@ -1,0 +1,94 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" lang="zh-CN" class="translated-ltr">
+<head th:include="index.html :: head">
+    <link rel="stylesheet" href="http://www.gt.com/IdeaUI/lib/layer/skin/default/layer.css?v=3.0.11110" id="layuicss-skinlayercss"><link type="text/css" rel="stylesheet" href="http://www.gt.com/IdeaUI/lib/laypage//skin/laypage.css" id="laypagecss"></head>
+<body >
+<div class="mm_ctr">
+<div th:include="index :: top">
+
+</div>
+<div id="main">
+    <div th:fragment="classify_page :: #pos"></div>
+    <div th:fragment="classify_page :: #cls"></div>
+    <div class="m_ctr1">
+        <div class="m_ctr">
+            <div class="gs_ctr1"><img src="/Upload/Pic/pic2.jpg"></div>
+            <div class="gs_ctr2">
+                <div class="gs_t1">200万像素6寸网络高清高速智能球机</div>
+                <div class="gs_t2">内置WIFI 高清 安卓直播 商业显示 USB多媒体 窄边 显示器两用 家用 商用</div>
+                <div class="gs_t3">
+                    <div class="gs_t31">￥<span id="m_dzprice">700.00</span> <span class="span1">￥900.00</span></div>
+                    <div class="gs_t32">库存 <span id="m_stock">990</span> 件</div>
+                </div>
+
+                <input type="hidden" id="m_gg" value="0">
+                <div class="m_ctr" style="line-height:30px; padding-top:5px;">数量：</div>
+                <div class="m_ctr">
+                    <div class="show_sl">
+                        <div class="show_sl1" onclick="delNum();">-</div>
+                        <div class="show_sl2" id="m_num">1</div>
+                        <div class="show_sl1" onclick="addNum();">+</div>
+                    </div>
+                </div>
+                <div class="m_ctr" style="padding-top:10px;">赠送积分：<font color="#e53c53">70</font> 分</div>
+                <div class="m_ctr">
+
+
+
+
+                    <input type="button" class="gwc_btn" value="加入购物车" onclick="addCart(0,6)">
+                    <input type="button" class="buy_btn" value="立即购买" onclick="buyNow(0,6)">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="m_ctr">
+            <div class="gs_t4">
+                <div class="gs_tt4">
+                    <div class="gs_t42" id="st1" onclick="ctab(1);">图文详情</div>
+                    <div class="gs_t41" id="st2" onclick="ctab(2);">规格参数</div>
+                    <div class="gs_t41" id="st3" onclick="ctab(3);">包装售后</div>
+                    <div class="gs_t41" id="st4" onclick="ctab(4);">用户评价</div>
+                </div>
+            </div>
+            <div class="m_ctr">
+                <div class="gs_ctt4" id="stab1"><p>采用1/3"索尼高性能逐行扫描CCD, 图像清晰, 最大分辨率可到1280x960 <br>精密电机驱动, 反应灵敏, 运转平稳, 精度偏差少于0.1度, 在任何速度下图像无抖动<br>支持RS-485控制下对HIKVISION、Pelco-P/D协议的自动识别<br>支持三维智能定位功能, 配合DVR和客户端软件可实现点击跟踪和放大<br>支持多语言菜单及操作提示功能, 用户界面友好<br>支持数据断电不丢失<br>支持断电状态记忆功能, 上电后自动回到断电前的云台和镜头状态<br>支持光纤模块接入<br>支持防雷、防浪涌、防突波<br>室外球达到IP66防护等级<br>支持定时任务预置点/花样扫描/巡航扫描/水平扫描/垂直扫描/随机扫描/帧扫描/全景扫描等功能</p></div>
+                <div class="gs_ctt4" id="stab2" style="display:none;"></div>
+                <div class="gs_ctt4" id="stab3" style="display:none;"></div>
+                <div class="gs_ctt4" id="stab4" style="display:none;">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div th:include="index :: foot"></div>
+<script type="text/javascript" src="/IdeaUI/lib/layer/2.2/layer.js" charset="utf-8"></script>
+<script type="text/javascript" src="/template/skin2/pc/js/idea.base.js" charset="utf-8"></script>
+<script language="javascript">
+    if (document.getElementById("t12")){
+        document.getElementById("t0").className="nav_cell";
+        document.getElementById("t12").className="nav_cell1";
+    }
+    if (document.getElementById("n12")){
+        document.getElementById("n0").className="l_tcell";
+        document.getElementById("n12").className="l_tcell1";
+    }
+    laypage({
+        cont: $('#page'), //容器。值支持id名、原生dom对象，jquery对象,
+        pages: 1, //总页数
+        curr: 1, //当前页
+        skip: true, //是否开启跳页
+        first: false,
+        last: false,
+        jump: function(obj, first){ //触发分页后的回调
+            if(!first){ //点击跳页触发函数自身，并传递当前页：obj.curr
+                location.href="?m=goods&c=list&cid=12&o=&ot=&page="+obj.curr;
+            }
+        }
+    });
+</script>
+</div>
+</body></html>

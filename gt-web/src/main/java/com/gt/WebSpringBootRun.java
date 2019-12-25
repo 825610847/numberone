@@ -10,7 +10,6 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 public class WebSpringBootRun {
 
     public static void main(String[] args) {
-
         SpringApplication.run(WebSpringBootRun.class,args);
     }
 }
