@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gt-manage:war">
+    <output-path>$PROJECT_DIR$/gt-manage/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gt-manage</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gt-manage-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="gt-manage:war exploded" />
+    </root>
+  </artifact>
+</component>

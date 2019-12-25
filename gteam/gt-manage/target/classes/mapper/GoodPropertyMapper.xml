@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gt.dao.GoodPropertyMapper">
+
+	<resultMap type="com.gt.entity.GoodProperty" id="GoodPropertyResult">
+		<id     property="goodId"          column="good_id"          />
+		<result property="goodTypeId"      column="good_type_id"     />
+<!--		<result property="buyerId"         column="buyer_id"         />-->
+<!--		<result property="sellerId"        column="seller_id"        />-->
+		<result property="goodName"        column="good_name"        />
+		<result property="goodStatus"      column="good_status"      />
+		<result property="goodPrice"       column="good_price"       />
+		<result property="goodPicture"     column="good_picture"     />
+<!--		<result property="isSupportReturn" column="is_support_return"/>-->
+<!--		<result property="goodViewCount"   column="good_view_count"  />-->
+<!--		<result property="goodSoldCount"   column="good_sold_count"  />-->
+<!--		<result property="createTime"      column="create_time"      />-->
+<!--		<result property="updateTime"      column="update_time"      />-->
+	</resultMap>
+
+
+	<sql id="selectGoodPropertyVo">
+        SELECT good_id, good_type_id, good_name, good_status, good_price, good_picture
+		FROM good_property
+			WHERE good_status = '0' OR good_status = '1'
+-- 			 LEFT JOIN good_cat_game gcg ON gp.good_id = gcg.good_id
+-- 			 LEFT JOIN game_info gi ON gcg.game_id = gi.game_id
+-- 			 LEFT JOIN game_cat_description gcd ON gi.game_description_id = gcd.game_description_id
+-- 			 LEFT JOIN game_description gd ON gcd.game_description_id = gd.game_description_id
+    </sql>
+<!--	<sql id="selectConsoleVo">-->
+<!--        SELECT gp.good_id, gp.good_price, gp.good_name, cd.console_image-->
+<!--		FROM good_property gp-->
+<!--			 LEFT JOIN good_cat_console gcc ON gp.good_id = gcc.good_id-->
+<!--			 LEFT JOIN console_info ci ON gcc.console_id = ci.conosole_id-->
+<!--			 LEFT JOIN console_cat_description ccd ON ci.console_id = ccd.console_id-->
+<!--			 LEFT JOIN console_description cd ON ccd.console_description_id = cd.console_description_id-->
+<!--    </sql>-->
+	<select id="selectGoodBySearchValue" parameterType="java.lang.String" resultMap="GoodPropertyResult">
+		<include refid="selectGoodPropertyVo"/>
+		<if test="goodId != null and goodId != ''">
+			AND good_id LIKE concat('%', #{goodId}, '%')
+		</if>
+		<if test="goodName != null and goodName != ''">
+			AND good_name LIKE concat('%', #{goodName}, '%')
+		</if>
+		<if test="goodPrice != null and goodPrice != ''">
+			AND good_price LIKE concat('%', #{goodPrice}, '%')
+		</if>
+	</select>
+
+	<select id="selectGoodByTypeId" parameterType="java.lang.Integer" resultMap="GoodPropertyResult">
+		<include refid="selectGoodPropertyVo"/>
+		<if test="goodTypeId != null and goodTypeId != ''">
+			AND good_type_id = #{goodTypeId}
+		</if>
+	</select>
+</mapper> 

@@ -1,0 +1,180 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" lang="zh-CN" class="translated-ltr">
+<head th:fragment="head"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>GTeam游戏商城</title>
+    <link rel="stylesheet" href="/css/Style.css">
+    <link rel="stylesheet" href="/js/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="/css/iconfont.css" type="text/css">
+<link rel="stylesheet" href="/layui/css/modules/layer/default/layer.css" >
+<link rel="stylesheet" href="/layui/css/layui.css" ></head>
+<body>
+<div class="mm_ctr">
+<div th:fragment="top">
+    <script type="text/javascript" src="/js/jquery.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/js/Validform_v5.3.2_min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/js/app.js" charset="utf-8"></script>
+    <script src="/layui/layui.js"></script>
+<div id="top">
+    <div class="top_left"><i class="iconfont"></i> 邮箱: 1170998607@qq.com</div>
+    <div class="top_t2" onmouseover="$('#top1').show()" onmouseout="$('#top1').hide()" >
+        <a href="javascript:void(0);">登录/注册 <i class="iconfont"></i></a>
+
+        <div class="top_cctr" id="top1" onmouseover="$('#top1').show()" onmouseout="$('#top1').hide()">
+            <div class="top_cell" onclick="showLoginLayer()"><a href="#">登录</a></div>
+            <div class="top_cell" onclick="showRegisterLayer()"><a href="#">注册</a></div>
+        </div>
+    </div>
+    <div class="top_t2" style="margin-right:15px;" onmouseover="$('#top2').show()" onmouseout="$('#top2').hide()">
+        <a href="javascript:void(0);">会员中心 <i class="iconfont"></i></a>
+        <div class="top_cctr" id="top2" onmouseover="$('#top2').show()" onmouseout="$('#top2').hide()">
+            <div class="top_cell"><a href="/page/center">我的资料</a></div>
+            <div class="top_cell"><a href="/page/myorder">我的订单</a></div>
+            <div class="top_cell"><a href="/page/cart">我的购物车</a></div>
+            <div class="top_cell"><a href="/page/mygood">我的发布</a></div>
+            <div class="top_cell"><a href="/page/addr">收货地址</a></div>
+            <div class="top_cell"><a href="/user/logout">退出登录</a></div>
+        </div>
+    </div>
+</div>
+<div id="nav"
+            style="float: left;
+    width: 1110px;
+    height: auto;
+    padding: 30px;
+    padding-bottom: 0px">
+    <div class="head_ctr">
+        <div class="input_ctr">
+            <form method="post" id="sbtn" action="/good/search">
+                <input type="text" name="keys" class="input_txt" placeholder="请输入关键词...">
+            </form>
+            <div class="input_btn" > <i class="iconfont"></i></div>
+        </div>
+        <div class="logo"><a href="/index"><img src="/images/test/zl1.jpg" width="213" height="71"></a></div>
+        <div class="ngwc_ctr" >
+            <div class="ngwc_ctr1" id="ngwc_ctr1"><i class="iconfont"></i></div>
+            <div class="ngwc_txt" ><a href="/page/cart">购物车</a><br><span><div class="floatleft" id="b_cart">0</div><div class="floatleft"> Item</div></span></div>
+        </div>
+    </div>
+    <div class="nav_ctr">
+        <div class="nav_cell1" id="t0"><a href="http://www.gt.com/">首页</a></div>
+
+        <div class="nav_cell" id="t13"><a href="/page/classify?classId=2">主机游戏</a></div>
+        <div class="nav_cell" id="t38"><a href="/page/classify?classId=2">游戏主机</a></div>
+
+    </div>
+    </div>
+</div>
+<div id="main">
+        <script src="/js/swiper-3.3.1.jquery.min.js"></script>
+        <div class="banner_ctr">
+			<!-- Swiper -->
+			<div class="swiper-container swiper-container-horizontal">
+				<div class="b_left"></div>
+				<div class="swiper-wrapper" style="transform: translate3d(-3420px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="width: 1110px; margin-right: 30px;"><a href="http://www.gt.com/?sivkde=gofcl1#"><img src="index_files/banner3.jpg"></a></div>
+					<div class="swiper-slide" data-swiper-slide-index="0" style="width: 1110px; margin-right: 30px;"><a href="http://www.gt.com/?sivkde=gofcl1#"><img src="/images/test/zl.jpg" style="max-height: 475px"></a></div>
+                    <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1" style="width: 1110px; margin-right: 30px;"><a href="http://www.gt.com/?sivkde=gofcl1#"><img src="/images/test/zelda.jpg" style="max-height: 475px"></a></div>
+                    <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="2" style="width: 1110px; margin-right: 30px;"><a href="http://www.gt.com/?sivkde=gofcl1#"><img src="/images/test/swgq.jpg" style="max-height: 475px"></a></div>
+				<div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0" style="/width: 1110px; margin-right: 30px;"><a href=""><img src="index_files/banner1.jpg"></a></div></div>
+				<div class="b_right"></div>
+				<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span></div>
+			</div>
+			
+			<!-- Initialize Swiper -->
+			<script>
+			var swiper = new Swiper('.swiper-container', {
+				pagination: '.swiper-pagination',
+				paginationClickable: '.swiper-pagination',
+				nextButton: '.b_left',
+				prevButton: '.b_right',
+				autoplay: 5000,//可选选项，自动滑动
+				spaceBetween: 30,
+				loop: true
+			});
+			</script>
+        </div>
+        <div class="m_ctr">
+            <div class="m_t1"><div class="m_tline"></div><div class="m_t11">热门游戏</div></div>
+            <div class="m_ctr1">
+                <div class="m_pctr1" >
+                    <div class="m_pic1" id="c1"><a href="http://www.gt.com/?m=goods&amp;c=show&amp;cid=14&amp;id=58" title="刺客信条：奥德赛"><img src="/images/test/ckxtods.jpg" alt="刺客信条：奥德赛"></a></div>
+                    <div class="m_pt11"><a href="http://www.gt.com/?m=goods&amp;c=show&amp;cid=14&amp;id=58" title="刺客信条：奥德赛">刺客信条：奥德赛</a></div>
+                    <div class="m_pt12"><span>￥100.00</span> ￥90.00</div>
+                </div>
+            </div>
+            <div class="m_ctr2">
+                <div class="m_pic21"><img src="/images/test/hydbk.jpg" width="730" height="250"></div>
+                <div class="m_pic22"><img src="/images/test/zl1.jpg" width="350" height="250"></div>
+            </div>
+            <div class="m_t1"><div class="m_tline"></div><div class="m_t11">新品发售</div></div>
+            <div class="m_ctr1">
+
+                <div class="m_pctr2" >
+                    <div class="m_pic2" id="x1"><a href="http://www.gt.com/?m=goods&amp;c=show&amp;cid=30&amp;id=60" title="商品"><img src="/images/test/swgq.jpg" alt="商品"></a></div>
+                    <div class="m_pt11"><a href="http://www.gt.com/?m=goods&amp;c=show&amp;cid=30&amp;id=60" title="商品">死亡搁浅</a></div>
+                    <div class="m_pt12"><span>￥0.01</span> ￥0.01</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+ <div id="foot" th:fragment="foot">
+    <div class="foot_t1">
+        <div class="foot_t11"><a href="javascript:void(0);"><i class="iconfont"></i><br><strong>7天</strong> 无理由退货</a></div>
+        <div class="foot_t12"></div><div class="foot_t11"><a href="javascript:void(0);"><i class="iconfont"></i><br><strong>15天</strong> 换货保障</a></div>
+        <div class="foot_t12"></div><div class="foot_t11"><a href="javascript:void(0);"><i class="iconfont"></i><br><strong>1年</strong> 免费保修</a></div>
+        <div class="foot_t12"></div><div class="foot_t11"><a href="javascript:void(0);"><i class="iconfont"></i><br><strong>百城</strong> 速达</a></div>
+        <div class="foot_t12"></div><div class="foot_t11"><a href="javascript:void(0);"><i class="iconfont"></i><br><strong>全场</strong> 包邮</a></div>
+        <div class="foot_t12"></div><div class="foot_t11"><a href="javascript:void(0);"><i class="iconfont"></i><br><strong>200多家</strong> 专卖店</a></div>
+    </div>
+    <div class="foot_t1">
+        <div class="foot_t21">
+            <span>帮助中心<br></span>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">支付方式</a><br>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">配送说明</a><br>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">售后服务</a><br>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">付款帮助</a><br>
+        </div>
+        <div class="foot_t21">
+            <span>服务支持<br></span>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">常见问题</a><br>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">保修政策</a><br>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">自助服务</a><br>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">相关下载</a><br>
+        </div>
+        <div class="foot_t21">
+            <span>关于我们<br></span>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">企业简介</a><br>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">加入我们</a><br>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">联系方式</a><br>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">法律声明</a><br>
+        </div>
+        <div class="foot_t21">
+            <span>关注我们<br></span>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">新浪微博</a><br>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">腾讯微博</a><br>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">QQ空间</a><br>
+            <a href="http://www.gt.com/?sivkde=gofcl1#">官方微信</a><br>
+        </div>
+        <div class="foot_t22">
+            <div class="floatleft">
+            24小时全国服务热线<br>
+            <span>400-700-2345</span>
+            </div>
+            <a href="http://www.gt.com/?sivkde=gofcl1#"><div class="foot_kf"><i class="iconfont"></i> 24小时在线客服</div></a>
+        </div>
+    </div>
+    <div class="foot_t2">Copyright © 2019 PowerBy GTeam All Rights Reserved.</div>
+
+     <script src="/js/login.js"></script>
+
+ </div>
+<script>
+</script>
+</div>
+</body></html>

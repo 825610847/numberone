@@ -24,9 +24,9 @@ logging:
 #SpringBoot整合dubbo   
 dubbo:
   scan:
-    basePackages: com.jt    #扫描dubbo的注解
+    basePackages: com.gt    #扫描dubbo的注解
   application:
-    name: provider-user     #定义服务名称
+    name: provider-sso     #定义服务名称
   registry:                 #dubbo链接zookeeper
     address: zookeeper://176.201.111.21:2181?backup=176.201.111.21:2182,176.201.111.21:2183
   protocol:                 #协议

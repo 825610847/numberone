@@ -1,5 +1,8 @@
 package com.gt.entity;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,11 +13,12 @@ import java.util.List;
  * 用户信息PO
  * @author 李源仑
  */
+@TableName("user_property")
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 public class UserProperty extends BaseEntity{
     /**用户ID*/
+    @TableId(type = IdType.AUTO)
     private Long userId;
     /**用户真实姓名*/
     private String userName;
@@ -32,4 +36,6 @@ public class UserProperty extends BaseEntity{
     private Double userWallet;
     /**用户状态*/
     private Integer userStatus;
+    /**用户密码*/
+    private String passWord;
 }
