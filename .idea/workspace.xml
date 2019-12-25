@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc8239f8-1d4c-4001-a046-1e7bf8097b9f" name="Default Changelist" comment="基本架构,包含common模块," />
+    <list default="true" id="bc8239f8-1d4c-4001-a046-1e7bf8097b9f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +98,14 @@
       <updated>1577167416785</updated>
       <workItem from="1577167421687" duration="3750000" />
     </task>
+    <task id="LOCAL-00001" summary="地址功能 增删改">
+      <created>1577264669384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577264669384</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,36 +124,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="地址的修改 删除 更改 （王中林）" />
-    <option name="LAST_COMMIT_MESSAGE" value="地址的修改 删除 更改 （王中林）" />
+    <MESSAGE value="地址功能 增删改" />
+    <option name="LAST_COMMIT_MESSAGE" value="地址功能 增删改" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="319" width="431" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577170672272">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="505" y="319" width="431" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.920@0.0.1440.920" timestamp="1577170672272" />
-    <state x="451" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577168983198">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="451" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920@0.0.1440.920" timestamp="1577168983198" />
-    <state x="209" y="54" key="CommitChangelistDialog2" timestamp="1577171278306">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="209" y="54" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1577171278306" />
-    <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1577167513287">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1577167513287" />
-    <state x="222" y="103" key="SettingsEditor" timestamp="1577167515357">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1577167515357" />
-    <state x="405" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1577167424511">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="405" y="285" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1577167424511" />
-    <state x="400" y="277" key="search.everywhere.popup" timestamp="1577170411209">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="400" y="277" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1577170411209" />
+    <state x="505" y="319" width="431" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" />
+    <state x="505" y="319" width="431" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.920@0.0.1440.920" />
+    <state x="451" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" />
+    <state x="451" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920@0.0.1440.920" />
+    <state x="209" y="54" key="CommitChangelistDialog2" />
+    <state x="209" y="54" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" />
+    <state x="501" y="216" key="FileChooserDialogImpl" />
+    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" />
+    <state x="222" y="103" key="SettingsEditor" />
+    <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" />
+    <state x="405" y="285" key="com.intellij.ide.util.TipDialog" />
+    <state x="405" y="285" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" />
+    <state x="400" y="277" key="search.everywhere.popup" />
+    <state x="400" y="277" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" />
   </component>
 </project>
