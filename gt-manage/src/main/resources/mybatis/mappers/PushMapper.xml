@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gt.mapper.PushMapper">
+    <select id="getHotList" resultMap="com.gt.entity.GameInfo">
+        SELECT *
+        FROM game_type
+        WHERE game_type_id IN (
+            SELECT a.game_type_id
+            FROM (
+                SELECT game_type_id
+                FROM game_info
+                WHERE create_time
+                    BETWEEN (
+                        SELECT DATE_ADD((
+                            SELECT MAX(create_time)
+                            FROM game_type),INTERVAL -1 MONTH))
+                    AND NOW() ORDER BY create_time DESC LIMIT #{index}, 10) a)
+    </select>
+
+
+    <select id="getNewList" resultType="com.gt.entity.GameInfo">
+        SELECT *
+        FROM game_info
+        WHERE create_time
+            BETWEEN (SELECT DATE_ADD((SELECT MAX(create_time) FROM game_type),INTERVAL -1 MONTH))
+            AND now() ORDER BY create_time DESC LIMIT #{index}, 10
+    </select>
+
+
+</mapper>

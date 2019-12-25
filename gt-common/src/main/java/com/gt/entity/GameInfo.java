@@ -1,7 +1,10 @@
 package com.gt.entity;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
@@ -13,8 +16,10 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@EqualsAndHashCode(callSuper = false)
 public class GameInfo extends BaseEntity{
     /**游戏ID*/
+    @TableId(type = IdType.AUTO)
     private Long gameId;
     /**游戏名称*/
     private String gameName;
@@ -27,7 +32,7 @@ public class GameInfo extends BaseEntity{
     /**游戏评分*/
     private Integer gameRating;
     /**游戏是否支持汉语*/
-    private boolean isSupportChinese;
+    private boolean isChinese;
     /**游戏发布日期*/
     private Date gameReleaseDate;
     /**游戏图片*/
