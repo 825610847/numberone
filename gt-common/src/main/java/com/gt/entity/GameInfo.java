@@ -20,23 +20,23 @@ import java.util.Date;
 public class GameInfo extends BaseEntity{
     /**游戏ID*/
     @TableId(type = IdType.AUTO)
-    private Long gameId;
+    private Long        gameId;
     /**游戏名称*/
-    private String gameName;
+    private String      gameName;
     /**游戏类型组*/
-    private String[] gameType;
+    private String      gameType;
     /**游戏厂商*/
-    private String gameDeveloper;
+    private String      gameDeveloper;
     /**游戏支持平台组*/
-    private String[] gamePlatform;
+    private String      gamePlatform;
     /**游戏评分*/
-    private Integer gameRating;
+    private Integer     gameRating;
     /**游戏是否支持汉语*/
-    private boolean isChinese;
+    private boolean     isChinese;
     /**游戏发布日期*/
-    private Date gameReleaseDate;
+    private Date        gameReleaseDate;
     /**游戏图片*/
-    private String gameImage;
+    private String      gameImage;
     /**游戏介绍*/
-    private String gameDescription;
+    private String      gameDescription;
 }

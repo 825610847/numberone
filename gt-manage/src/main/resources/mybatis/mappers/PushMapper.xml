@@ -2,8 +2,8 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.gt.mapper.PushMapper">
-    <select id="getHotList" resultMap="com.gt.entity.GameInfo">
-        SELECT *
+    <select id="getHotList" resultType="com.gt.entity.GameInfo">
+        /*SELECT *
         FROM game_type
         WHERE game_type_id IN (
             SELECT a.game_type_id
@@ -15,17 +15,67 @@
                         SELECT DATE_ADD((
                             SELECT MAX(create_time)
                             FROM game_type),INTERVAL -1 MONTH))
-                    AND NOW() ORDER BY create_time DESC LIMIT #{index}, 10) a)
+                    AND NOW() ORDER BY create_time DESC LIMIT #{index}, 10) a)*/
     </select>
 
 
-    <select id="getNewList" resultType="com.gt.entity.GameInfo">
+    <!--<select id="getNewList" resultType="com.gt.entity.GameInfo">
         SELECT *
         FROM game_info
         WHERE create_time
             BETWEEN (SELECT DATE_ADD((SELECT MAX(create_time) FROM game_type),INTERVAL -1 MONTH))
             AND now() ORDER BY create_time DESC LIMIT #{index}, 10
+    </select>-->
+
+
+    <select id="getNewList" resultType="com.gt.entity.GameInfo">
+        SELECT	
+        i.game_id           game_id,
+	    i.game_name         game_name,
+	    i.game_developer    game_developer,
+	    i.game_platform     game_platform,
+	    i.game_rating       game_rating,
+	    i.is_chinese        is_chinese,
+	    i.game_release_date game_release_date,
+	    t.game_type         game_type,
+	    i.create_time       create_time,
+	    i.update_time       update_time
+        FROM game_info i JOIN game_type t ON IFNULL(i.game_type_id, 1) = IFNULL(t.game_type_id, 1)
+        WHERE t.game_type_id IN (
+	    SELECT a.game_type_id
+	    FROM (
+		    SELECT game_type_id
+		    FROM game_info
+		    WHERE create_time
+		    BETWEEN (
+			    SELECT DATE_ADD((SELECT MAX(create_time) FROM game_type),INTERVAL -1 MONTH))
+		    AND NOW() ORDER BY create_time DESC LIMIT #{index}, 10) a)
+        ORDER BY i.create_time DESC LIMIT #{index}, 10
     </select>
 
+    <select id="getDescription" resultType="com.gt.entity.GameInfo">
+        SELECT game_image, game_description
+        FROM game_description
+        WHERE game_description_id = (
+            SELECT game_description_id FROM game_cat_descrioption WHERE game_id = #{gameId}
+        )
+    </select>
+    
+    <select id="findTP" resultType="String">
+        SELECT
+            i.game_platform     game_platform,
+            t.game_type         game_type
+        FROM game_info i JOIN game_type t ON IFNULL(i.game_type_id, 1) = IFNULL(t.game_type_id, 1)
+        WHERE t.game_type_id IN (
+            SELECT a.game_type_id
+            FROM (
+                     SELECT game_type_id
+                     FROM game_info
+                     WHERE create_time
+                               BETWEEN (
+                             SELECT DATE_ADD((SELECT MAX(create_time) FROM game_type),INTERVAL -1 MONTH))
+                               AND NOW() ORDER BY create_time DESC LIMIT #{index}, 10) a)
+        ORDER BY i.create_time DESC LIMIT #{index}, 10
+    </select>
 
 </mapper>

@@ -1,39 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc8239f8-1d4c-4001-a046-1e7bf8097b9f" name="Default Changelist" comment="基本架构,包含common模块,">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-cart/src/main/resources/properties/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/anno/CacheFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/aop/CacheAOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/aop/ExecutionAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/aop/RuntimeAOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/aop/SystemExceptionAOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/ConsoleInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/GameInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/GoodProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/TypeLabel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserBusiness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserFavourite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/enums/GoodStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/enums/UserOrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/enums/UserStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/service/DubboCartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/service/DubboOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/service/DubboUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/util/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/util/IPUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/util/ObjectMapperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/vo/SysResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/properties/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-sso/src/main/resources/properties/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/properties/redis.properties" afterDir="false" />
+    <list default="true" id="bc8239f8-1d4c-4001-a046-1e7bf8097b9f" name="Default Changelist" comment="推新测试">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/gt_manage_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/gt_manage_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gteam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gteam.iml" afterDir="false" />
@@ -62,12 +39,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" afterDir="false" />
@@ -98,7 +73,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
@@ -146,31 +121,84 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-cart/gt-cart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-cart/gt-cart.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-cart/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-cart/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-common/gt-cart/gt-cart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/gt-cart.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-common/gt-cart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-common/gt-cart/src/main/java/com/gt/CartSpringBootRun.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-common/gt-cart/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-common/gt-cart/src/main/resources/mybatis/mappers/CartMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gt-common/gt-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/gt-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-manage/gt-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/gt-manage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-manage/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/gt-cart.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/GameInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/GameInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserFavourite.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserFavourite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/service/DubboUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/service/DubboUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/mapper/PushMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/mapper/PushMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/service/PushServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/service/PushServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-manage/src/main/resources/mybatis/mappers/PushMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/mybatis/mappers/PushMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-manage/src/test/java/com/gt/mapper/test/TestPush.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/src/test/java/com/gt/mapper/test/TestPush.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gt-sso/gt-sso.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-sso/gt-sso.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gt-sso/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-sso/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-web/gt-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-web/gt-web.iml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - gteam@176.201.111.5" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - gteam@176.201.111.5" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - gteam@176.201.111.5" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="gteam: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="manage" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\CODE\IdeaProjects\gteam\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Development/Maven/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\localRepository\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -181,19 +209,32 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gt-cart/src/main/resources" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/gt-sso/src/main/java/com/gt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gt-manage/src/test/java/com/gt/mapper/test" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="stylesheet.code.style.group" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\projects\gteam\gt-cart\src\main\resources" />
-      <recent name="D:\projects\gteam\gt-web\src\main\resources" />
-      <recent name="D:\projects\gteam\gt-manage\src\main\resources" />
-      <recent name="D:\projects\gteam\gt-sso\src\main\resources" />
-      <recent name="D:\projects\gteam\gt-common\src\main\java\com\gt" />
+      <recent name="D:\CODE\IdeaProjects\gteam\gt-manage\src\test\java\com\gt\mapper\test" />
+      <recent name="D:\CODE\IdeaProjects\gteam\gt-common\src\main\java\com\gt\entity" />
+      <recent name="D:\CODE\IdeaProjects\gteam\gt-common\src\main\java\com\gt\service" />
+      <recent name="D:\CODE\IdeaProjects\gteam\gt-manage\src\main\java\com\gt\service" />
+      <recent name="D:\CODE\IdeaProjects\gteam\gt-manage\src\main\java\com\gt\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gt" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\gteam\gt-common\src\main" />
@@ -201,7 +242,105 @@
       <recent name="D:\projects\gteam\gt-common" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootRun">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WebSpringBootRun">
+    <configuration name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gt-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gt.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gt.test" />
+      <option name="MAIN_CLASS_NAME" value="com.gt.test.Test1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.AddrTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gt-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gt.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gt.test" />
+      <option name="MAIN_CLASS_NAME" value="com.gt.test.Test1" />
+      <option name="METHOD_NAME" value="AddrTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPush.testGetNewList " type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="gt-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gt.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gt.test" />
+      <option name="MAIN_CLASS_NAME" value="com.gt.test.TestPush" />
+      <option name="METHOD_NAME" value="testGetNewList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPush.testGetNewList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gt-manage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gt.mapper.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gt.mapper.test" />
+      <option name="MAIN_CLASS_NAME" value="com.gt.mapper.test.TestPush" />
+      <option name="METHOD_NAME" value="testGetNewList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPush.testGetNewList" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="gt-manage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gt.mapper.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gt.mapper.test" />
+      <option name="MAIN_CLASS_NAME" value="com.gt.mapper.test.TestPush" />
+      <option name="METHOD_NAME" value="testGetNewList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CartSpringBootRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gt-cart" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gt.CartSpringBootRun" />
@@ -219,6 +358,9 @@
     <configuration name="SpringBootRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gt-manage" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gt.SpringBootRun" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -230,17 +372,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.Test1" />
+      <item itemvalue="JUnit.Test1.AddrTest" />
+      <item itemvalue="JUnit.TestPush.testGetNewList " />
+      <item itemvalue="JUnit.TestPush.testGetNewList" />
+      <item itemvalue="Spring Boot.CartSpringBootRun" />
+      <item itemvalue="Spring Boot.SpringBootRun" />
+      <item itemvalue="Spring Boot.SSOSpringBootRun" />
+      <item itemvalue="Spring Boot.WebSpringBootRun" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestPush.testGetNewList" />
+        <item itemvalue="JUnit.TestPush.testGetNewList " />
+        <item itemvalue="JUnit.Test1.AddrTest" />
+        <item itemvalue="JUnit.Test1" />
+        <item itemvalue="JUnit.TestPush.testGetNewList " />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.21516393" />
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -254,40 +414,110 @@
       <option name="presentableId" value="Default" />
       <updated>1577167416785</updated>
       <workItem from="1577167421687" duration="3750000" />
+      <workItem from="1577171732179" duration="14482000" />
+      <workItem from="1577233061250" duration="22260000" />
+      <workItem from="1577262983031" duration="804000" />
     </task>
+    <task id="LOCAL-00001" summary="简单查询新品">
+      <created>1577254081398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577254081399</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+        <option value="2" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="简单查询新品" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单查询新品" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="319" width="431" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577170672272">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="505" y="319" width="431" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.920@0.0.1440.920" timestamp="1577170672272" />
-    <state x="451" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577168983198">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="451" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920@0.0.1440.920" timestamp="1577168983198" />
-    <state x="209" y="54" key="CommitChangelistDialog2" timestamp="1577171278306">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="209" y="54" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1577171278306" />
-    <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1577167513287">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1577167513287" />
-    <state x="222" y="103" key="SettingsEditor" timestamp="1577167515357">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1577167515357" />
-    <state x="405" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1577167424511">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="405" y="285" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1577167424511" />
-    <state x="400" y="277" key="search.everywhere.popup" timestamp="1577170411209">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="400" y="277" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1577170411209" />
+    <state x="505" y="319" width="431" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" />
+    <state x="505" y="319" width="431" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.920@0.0.1440.920" />
+    <state x="451" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" />
+    <state x="451" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920@0.0.1440.920" />
+    <state x="209" y="54" key="CommitChangelistDialog2" />
+    <state x="209" y="54" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" />
+    <state x="501" y="216" key="FileChooserDialogImpl" />
+    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" />
+    <state x="222" y="103" key="SettingsEditor" />
+    <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" />
+    <state x="405" y="285" key="com.intellij.ide.util.TipDialog" />
+    <state x="405" y="285" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" />
+    <state x="400" y="277" key="search.everywhere.popup" />
+    <state x="400" y="277" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" />
   </component>
 </project>

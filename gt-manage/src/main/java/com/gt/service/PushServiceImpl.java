@@ -14,11 +14,19 @@ public class PushServiceImpl implements DubboPushService {
 
     @Override
     public List<GameInfo> getHotList(Integer index) {
-        return pushMapper.getNewList(index);
+        return pushMapper.getHotList(index);
     }
 
     @Override
     public List<GameInfo> getNewList(Integer index) {
-        return pushMapper.getNewList(index);
+        List<GameInfo> newList = pushMapper.getNewList(index);
+        for (GameInfo gameInfo : newList) {
+            Long gameId = gameInfo.getGameId();
+            GameInfo description = pushMapper.getDescription(gameId);
+            gameInfo.setGameImage(description.getGameImage());
+            gameInfo.setGameDescription(description.getGameDescription());
+        }
+
+        return newList;
     }
 }
