@@ -1,6 +1,8 @@
 package com.gt.service;
 
 
+import com.gt.entity.UserProperty;
+
 /**
  * 定义中立的第三方接口.
  * @author Administrator
@@ -9,5 +11,5 @@ package com.gt.service;
 public interface DubboUserService {
 
 
-
+    void insertUser(UserProperty user);
 }
