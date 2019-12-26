@@ -1,4 +1,4 @@
-package com.gt.dao;
+package com.gt.mapper;
 
 import com.gt.entity.GoodProperty;
 

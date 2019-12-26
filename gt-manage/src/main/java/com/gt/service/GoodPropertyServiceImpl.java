@@ -1,6 +1,6 @@
 package com.gt.service;
 
-import com.gt.dao.GoodPropertyMapper;
+import com.gt.mapper.GoodPropertyMapper;
 import com.gt.entity.GoodProperty;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

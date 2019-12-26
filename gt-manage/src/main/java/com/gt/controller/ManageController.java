@@ -17,13 +17,13 @@ public class ManageController {
     @Autowired
     private GoodPropertyService goodPropertyService;
 
-    @GetMapping("/{typeId}")
+    @GetMapping("/type/{typeId}")
     public SysResult searchGoods(@PathVariable Integer typeId){
         List<GoodProperty> goodProperties = goodPropertyService.selectGoodPropertyByTypeId(typeId);
         return goodProperties != null ? SysResult.success(goodProperties) : SysResult.fail();
     }
 
-    @GetMapping("?wd={searchValue}")
+    @GetMapping("/word/{searchValue}")
     public SysResult searchGoods(@PathVariable String searchValue){
         List<GoodProperty> goodProperties = goodPropertyService.selectGoodProperty(searchValue);
         return goodProperties != null ? SysResult.success(goodProperties) : SysResult.fail();

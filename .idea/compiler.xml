@@ -8,9 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="gt-cart" />
         <module name="gt-common" />
-        <module name="gt-manage" />
-        <module name="gt-sso" />
         <module name="gt-web" />
+        <module name="gt-sso" />
+        <module name="gt-manage" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

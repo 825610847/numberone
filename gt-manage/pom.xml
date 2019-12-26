@@ -10,8 +10,9 @@
             <groupId>com.gt</groupId>
             <artifactId>gt-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
+            <scope>compi
+                le</scope>
+        </dependency>+
         <dependency>
             <groupId>com.gt</groupId>
             <artifactId>gt-common</artifactId>
