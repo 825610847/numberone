@@ -19,18 +19,16 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     </sql>
 	<select id="selectGoodBySearchValue" parameterType="java.lang.String" resultMap="GoodPropertyResult">
 		<include refid="selectGoodPropertyVo"/>
-		<if test="goodName != null and goodName != ''">
+		<if test="searchValue != null and searchValue != ''">
 			WHERE good_name LIKE concat('%', #{searchValue}, '%')
 		</if>
-		<if test="goodPrice != null and goodPrice != ''">
+		<if test="searchValue != null and searchValue != ''">
 			OR good_price LIKE concat('%', #{searchValue}, '%')
 		</if>
 	</select>
 
 	<select id="selectGoodByTypeId" parameterType="java.lang.Integer" resultMap="GoodPropertyResult">
 		<include refid="selectGoodPropertyVo"/>
-		<if test="goodTypeId != null and goodTypeId != ''">
 			WHERE good_type_id = #{typeId}
-		</if>
 	</select>
 </mapper> 
