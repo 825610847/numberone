@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gt.mapper.GoodPropertyMapper">
+
+	<resultMap type="com.gt.entity.GoodProperty" id="GoodPropertyResult">
+		<id     property="goodId"          column="good_id"          />
+		<result property="goodTypeId"      column="good_type_id"     />
+		<result property="goodName"        column="good_name"        />
+		<result property="goodStatus"      column="good_status"      />
+		<result property="goodPrice"       column="good_price"       />
+		<result property="goodPicture"     column="good_picture"     />
+	</resultMap>
+
+	<sql id="selectGoodPropertyVo">
+        SELECT good_id, good_type_id, good_name, good_status, good_price, good_picture
+		FROM good_property
+    </sql>
+	<select id="selectGoodBySearchValue" parameterType="java.lang.String" resultMap="GoodPropertyResult">
+		<include refid="selectGoodPropertyVo"/>
+		<if test="goodName != null and goodName != ''">
+			WHERE good_name LIKE concat('%', #{searchValue}, '%')
+		</if>
+		<if test="goodPrice != null and goodPrice != ''">
+			OR good_price LIKE concat('%', #{searchValue}, '%')
+		</if>
+	</select>
+
+	<select id="selectGoodByTypeId" parameterType="java.lang.Integer" resultMap="GoodPropertyResult">
+		<include refid="selectGoodPropertyVo"/>
+		<if test="goodTypeId != null and goodTypeId != ''">
+			WHERE good_type_id = #{typeId}
+		</if>
+	</select>
+</mapper> 

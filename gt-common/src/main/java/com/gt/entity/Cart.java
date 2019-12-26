@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
  * @author 李源仑
  */
 @Data
-@AllArgsConstructor
+@NoArgsConstructor
 public class Cart extends UserBusiness {
 }
 

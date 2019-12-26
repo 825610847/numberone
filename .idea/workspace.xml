@@ -1,177 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27a3dad2-49f6-446c-9c7f-2ac07e32e10f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/Assassins_Creed_Black_Flag.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/Assassins_Creed_Conspiracies_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/Assassins_Creed_Unity.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/Assassions_Creed_Odyssey.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/BattleField_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/BattleField_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/BattleField_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/BattleField_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/BattleField_Bad_Company_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/COD_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/COD_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/Dishornored_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/Far_Cry_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/Far_Cry_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/Far_Cry_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/God_of_War_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/God_of_War_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/God_of_War_Chain_of_Olympus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/God_of_War_Ghost_of_Sparta.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/Monster_Hunter_World.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/Rayman_Legends.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/Resident_Evil_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/Resident_Evil_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/The_King_of_Fighter_97.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/The_King_of_Fighter_XIV.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/0/The_SIMS_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/1/PlayStaion_4_Batman_Ediotion.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/1/PlayStation_4_Pro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/1/PlayStation_4_SpiderMan_Edition.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/1/PlayStation_4_Taco_Bell_Edition.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/1/SWITCH.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/images/1/XBOX_ONE_X.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/gt_manage_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/gt_manage_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gteam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gteam.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_autoconfigure_0_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_autoconfigure_0_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_starter_0_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_starter_0_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_12_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_12_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_3_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_3_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_quartz_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_quartz_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_11_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_11_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_11_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_3.xml" afterDir="false" />
+    <list default="true" id="27a3dad2-49f6-446c-9c7f-2ac07e32e10f" name="Default Changelist" comment="总有人要背锅">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/service/DoubboAddrService11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/service/DubboPushService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/mapper/GoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/mapper/PushMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/mapper/UserAddrMapper11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/service/GoodsSserviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/service/PushServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/service/UserAddrServiceImpl11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/mybatis.mappers/UserAddrMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/mybatis/mappers/PushMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/src/test/java/com/gt/mapper/test/TestPush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/META-INF/gt-manage.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/Assassins_Creed_Black_Flag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/Assassins_Creed_Conspiracies_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/Assassins_Creed_Unity.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/Assassions_Creed_Odyssey.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/BattleField_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/BattleField_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/BattleField_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/BattleField_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/BattleField_Bad_Company_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/COD_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/COD_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/Dishornored_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/Far_Cry_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/Far_Cry_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/Far_Cry_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/God_of_War_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/God_of_War_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/God_of_War_Chain_of_Olympus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/God_of_War_Ghost_of_Sparta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/Monster_Hunter_World.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/Rayman_Legends.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/Resident_Evil_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/Resident_Evil_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/The_King_of_Fighter_97.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/The_King_of_Fighter_XIV.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/0/The_SIMS_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/1/PlayStaion_4_Batman_Ediotion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/1/PlayStation_4_Pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/1/PlayStation_4_SpiderMan_Edition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/1/PlayStation_4_Taco_Bell_Edition.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/1/SWITCH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/images/1/XBOX_ONE_X.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/mapper/GoodPropertyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/mybatis.mappers/UserAddrMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/mybatis/mappers/PushMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-manage/target/classes/properties/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-sso/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-sso/target/classes/properties/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/client/HttpClientClose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/config/HttpClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/config/MvcConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/controller/GoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/controller/PushController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/controller/UserAddrController11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/service/GoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/serviceImpl/GoodServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/serviceImpl/HttpClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/properties/httpClient.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/css/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/css/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/js/Validform_v5.3.2_min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/js/idea.base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/js/jquery-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/js/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/js/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/js/swiper-3.3.1.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/js/swiper-3.3.1.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/templates/commons/login_layer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/templates/commons/register_layer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/templates/views/addr_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/templates/views/cart_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/templates/views/center_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/templates/views/classify_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/templates/views/editaddr_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/templates/views/goodinfo_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/templates/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/templates/views/mygood_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/main/resources/templates/views/myorder_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt-web/src/test/java/com/gt/test/TestPush.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-cart/gt-cart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-cart/gt-cart.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/gt-cart.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/GameInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/GameInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/GoodProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/GoodProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserAddr.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserAddr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserFavourite.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserFavourite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/entity/UserProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/service/DubboUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-common/src/main/java/com/gt/service/DubboUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-manage/gt-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/gt-manage.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gt-manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/controller/ManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/controller/ManageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/dao/GoodPropertyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/mapper/GoodPropertyMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/service/GoodPropertyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/src/main/java/com/gt/service/GoodPropertyServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gt-manage/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-manage/src/main/resources/mapper/FindUserAddrMapper.xml.tld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-manage/src/main/resources/mybatis/mappers/GoodPropertyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-manage/src/main/resources/mapper/GoodPropertyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-manage/src/main/resources/mybatis/mappers/UserPropertyMapper.xml.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gt-sso/gt-sso.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-sso/gt-sso.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-sso/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-sso/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gt-web/gt-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-web/gt-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gteam/gt-manage/src/main/resources/mapper/GoodPropertyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gteam/gt-manage/src/main/resources/mapper/GoodPropertyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gteam/gt-manage/target/classes/mapper/GoodPropertyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gteam/gt-manage/target/classes/mapper/GoodPropertyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/WebSpringBootRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/gt-web/src/main/java/com/gt/WebSpringBootRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gt-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gt-web/src/main/resources/properties/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gt-web/src/main/resources/properties/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gteam/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/gteam/.idea/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="gteam" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -188,6 +252,13 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\gteam\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -214,14 +285,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\gteam\gt-manage\src\main\resources\images\goodcovers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\gteam\gt-manage\src\main\resources" />
       <recent name="D:\gteam\gt-manage\src\main\resources\images\goodcovers" />
       <recent name="D:\gteam\gt-manage\src\main\resources\mapper" />
       <recent name="D:\gteam\gt-common\src\main\java\com\gt\entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gteam\gt-manage\src\main\resources\images\goodcovers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,6 +308,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringBootRun">
+    <configuration name="CartSpringBootRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gt-cart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gt.CartSpringBootRun" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SSOSpringBootRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="gt-sso" />
       <extension name="coverage">
@@ -259,6 +337,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gt.SpringBootRun" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebSpringBootRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gt-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gt.WebSpringBootRun" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

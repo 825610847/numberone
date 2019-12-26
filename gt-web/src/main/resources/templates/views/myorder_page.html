@@ -1,0 +1,59 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" lang="zh-CN" class="translated-ltr">
+<head th:include="index.html :: head">
+    <link rel="stylesheet" href="http://www.gt.com/IdeaUI/lib/layer/skin/default/layer.css?v=3.0.11110" id="layuicss-skinlayercss"><link type="text/css" rel="stylesheet" href="http://www.gt.com/IdeaUI/lib/laypage//skin/laypage.css" id="laypagecss"></head>
+<body >
+<div class="mm_ctr">
+    <div th:include="index :: top">
+
+    </div>
+    <div id="main">
+        <div class="m_ctr">
+            <div class="ej_tctr">当前位置：<a href="/">首页</a> &gt; 我的资料</div>
+            <div class="m_ctr1">
+                <div class="ej_left">
+                    <div class="ej_nav1"><i class="iconfont"></i> <span>会员中心</span></div>
+                    <div class="ej_nav21"><a href="/page/center">我的资料</a></div>
+                    <div class="ej_nav22"><a href="/page/myorder">我的订单</a></div>
+                    <div class="ej_nav21"><a href="/page/cart">我的购物车</a></div>
+                    <div class="ej_nav21"><a href="/page/mygood">我的发布</a></div>
+                    <div class="ej_nav21"><a href="/page/addr">收货地址</a></div>
+                </div>
+                <div class="ej_right">
+                    <div class="m_ctr">
+                        <div class="gs_t4" style="margin:0;background:#f9f9f9;">
+                            <div class="gs_tt4">
+                                <div class="gs_t42" id="st1" onclick="ctab(1);">已完成</div>
+                                <div class="gs_t41" id="st2" onclick="ctab(2);">待付款</div>
+                                <div class="gs_t41" id="st3" onclick="ctab(3);">待发货</div>
+                                <div class="gs_t41" id="st4" onclick="ctab(4);">待收货</div>
+                                <div class="gs_t41" id="st5" onclick="ctab(5);">退换货</div>
+                            </div>
+                        </div>
+                        <div class="m_ctr">
+                            <div class="gs_ctt4" id="stab1">
+                                <div style="float:left;width:100%;text-align:center;padding-top:20px;">对不起，暂无数据！</div>
+                            </div>
+                            <div class="gs_ctt4" id="stab2" style="display:none;">
+                                <div style="float:left;width:100%;text-align:center;padding-top:20px;">对不起，暂无数据！</div>
+                            </div>
+                            <div class="gs_ctt4" id="stab3" style="display:none;">
+                                <div style="float:left;width:100%;text-align:center;padding-top:20px;">对不起，暂无数据！</div>
+                            </div>
+                            <div class="gs_ctt4" id="stab4" style="display:none;">
+                                <div style="float:left;width:100%;text-align:center;padding-top:20px;">对不起，暂无数据！</div>
+                            </div>
+                            <div class="gs_ctt4" id="stab5" style="display:none;">
+                                <div style="float:left;width:100%;text-align:center;padding-top:20px;">对不起，暂无数据！</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div th:include="index :: foot"></div>
+</div>
+</body>
+</html>
